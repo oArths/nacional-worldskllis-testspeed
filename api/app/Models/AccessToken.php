@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class AccessToken extends Model
 {
     use HasFactory;
-    protected $fillable = ['id', 'name', 'email', 'username', 'password'];
-    protected $table = 'user';
+    protected $fillable = ['id', 'userId', 'tokenString', 'creationDate'];
+    protected $table = 'accesstoken';
     public $timestamps = false;
 }
