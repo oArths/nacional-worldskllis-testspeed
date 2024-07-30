@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "movieId": 1,
+    "artistId": 1,
+    "roleId": 1
+  },
+  {
+    "id": 2,
+    "movieId": 1,
+    "artistId": 2,
+    "roleId": 1
+  },
+  {
+    "id": 3,
+    "movieId": 1,
+    "artistId": 3,
+    "roleId": 1
+  },
+  {
+    "id": 4,
+    "movieId": 1,
+    "artistId": 4,
+    "roleId": 3
+  },
+  {
+    "id": 5,
+    "movieId": 1,
+    "artistId": 5,
+    "roleId": 2
+  },
+  {
+    "id": 6,
+    "movieId": 1,
+    "artistId": 6,
+    "roleId": 3
+  },
+  {
+    "id": 7,
+    "movieId": 1,
+    "artistId": 7,
+    "roleId": 2
+  },
+  {
+    "id": 8,
+    "movieId": 1,
+    "artistId": 8,
+    "roleId": 3
+  },
+  {
+    "id": 9,
+    "movieId": 1,
+    "artistId": 9,
+    "roleId": 2
+  },
+  {
+    "id": 10,
+    "movieId": 2,
+    "artistId": 10,
+    "roleId": 1
+  },
+  {
+    "id": 11,
+    "movieId": 2,
+    "artistId": 11,
+    "roleId": 1
+  },
+  {
+    "id": 12,
+    "movieId": 2,
+    "artistId": 12,
+    "roleId": 1
+  },
+  {
+    "id": 13,
+    "movieId": 2,
+    "artistId": 13,
+    "roleId": 2
+  },
+  {
+    "id": 14,
+    "movieId": 2,
+    "artistId": 14,
+    "roleId": 2
+  },
+  {
+    "id": 15,
+    "movieId": 2,
+    "artistId": 13,
+    "roleId": 3
+  },
+  {
+    "id": 16,
+    "movieId": 3,
+    "artistId": 15,
+    "roleId": 1
+  },
+  {
+    "id": 17,
+    "movieId": 3,
+    "artistId": 16,
+    "roleId": 1
+  },
+  {
+    "id": 18,
+    "movieId": 3,
+    "artistId": 17,
+    "roleId": 1
+  },
+  {
+    "id": 19,
+    "movieId": 3,
+    "artistId": 18,
+    "roleId": 2
+  },
+  {
+    "id": 20,
+    "movieId": 3,
+    "artistId": 19,
+    "roleId": 2
+  },
+  {
+    "id": 21,
+    "movieId": 3,
+    "artistId": 18,
+    "roleId": 3
+  },
+  {
+    "id": 22,
+    "movieId": 3,
+    "artistId": 19,
+    "roleId": 3
+  },
+  {
+    "id": 23,
+    "movieId": 4,
+    "artistId": 10,
+    "roleId": 1
+  },
+  {
+    "id": 24,
+    "movieId": 4,
+    "artistId": 20,
+    "roleId": 1
+  },
+  {
+    "id": 25,
+    "movieId": 4,
+    "artistId": 21,
+    "roleId": 1
+  },
+  {
+    "id": 26,
+    "movieId": 4,
+    "artistId": 23,
+    "roleId": 2
+  },
+  {
+    "id": 27,
+    "movieId": 4,
+    "artistId": 24,
+    "roleId": 2
+  },
+  {
+    "id": 28,
+    "movieId": 4,
+    "artistId": 25,
+    "roleId": 2
+  },
+  {
+    "id": 29,
+    "movieId": 4,
+    "artistId": 22,
+    "roleId": 3
+  },
+  {
+    "id": 30,
+    "movieId": 5,
+    "artistId": 11,
+    "roleId": 1
+  },
+  {
+    "id": 31,
+    "movieId": 5,
+    "artistId": 26,
+    "roleId": 1
+  },
+  {
+    "id": 32,
+    "movieId": 5,
+    "artistId": 27,
+    "roleId": 1
+  },
+  {
+    "id": 33,
+    "movieId": 5,
+    "artistId": 28,
+    "roleId": 2
+  },
+  {
+    "id": 34,
+    "movieId": 5,
+    "artistId": 28,
+    "roleId": 3
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "userId": 2,
+    "reviewId": 1,
+    "positive": false
+  },
+  {
+    "id": 2,
+    "userId": 3,
+    "reviewId": 1,
+    "positive": true
+  },
+  {
+    "id": 3,
+    "userId": 4,
+    "reviewId": 1,
+    "positive": true
+  },
+  {
+    "id": 4,
+    "userId": 1,
+    "reviewId": 2,
+    "positive": false
+  },
+  {
+    "id": 5,
+    "userId": 3,
+    "reviewId": 2,
+    "positive": true
+  },
+  {
+    "id": 6,
+    "userId": 4,
+    "reviewId": 2,
+    "positive": true
+  },
+  {
+    "id": 7,
+    "userId": 1,
+    "reviewId": 3,
+    "positive": true
+  },
+  {
+    "id": 8,
+    "userId": 2,
+    "reviewId": 3,
+    "positive": false
+  },
+  {
+    "id": 9,
+    "userId": 4,
+    "reviewId": 3,
+    "positive": false
+  },
+  {
+    "id": 10,
+    "userId": 1,
+    "reviewId": 4,
+    "positive": false
+  },
+  {
+    "id": 11,
+    "userId": 2,
+    "reviewId": 4,
+    "positive": false
+  },
+  {
+    "id": 12,
+    "userId": 3,
+    "reviewId": 4,
+    "positive": false
+  },
+  {
+    "id": 13,
+    "userId": 2,
+    "reviewId": 5,
+    "positive": false
+  },
+  {
+    "id": 14,
+    "userId": 3,
+    "reviewId": 5,
+    "positive": false
+  },
+  {
+    "id": 15,
+    "userId": 4,
+    "reviewId": 5,
+    "positive": true
+  },
+  {
+    "id": 16,
+    "userId": 1,
+    "reviewId": 6,
+    "positive": false
+  },
+  {
+    "id": 17,
+    "userId": 3,
+    "reviewId": 6,
+    "positive": false
+  },
+  {
+    "id": 18,
+    "userId": 4,
+    "reviewId": 6,
+    "positive": false
+  },
+  {
+    "id": 19,
+    "userId": 1,
+    "reviewId": 7,
+    "positive": false
+  },
+  {
+    "id": 20,
+    "userId": 2,
+    "reviewId": 7,
+    "positive": false
+  },
+  {
+    "id": 21,
+    "userId": 4,
+    "reviewId": 7,
+    "positive": false
+  },
+  {
+    "id": 22,
+    "userId": 1,
+    "reviewId": 8,
+    "positive": false
+  },
+  {
+    "id": 23,
+    "userId": 2,
+    "reviewId": 8,
+    "positive": false
+  },
+  {
+    "id": 24,
+    "userId": 3,
+    "reviewId": 8,
+    "positive": true
+  },
+  {
+    "id": 25,
+    "userId": 2,
+    "reviewId": 9,
+    "positive": true
+  },
+  {
+    "id": 26,
+    "userId": 3,
+    "reviewId": 9,
+    "positive": true
+  },
+  {
+    "id": 27,
+    "userId": 4,
+    "reviewId": 9,
+    "positive": false
+  },
+  {
+    "id": 28,
+    "userId": 1,
+    "reviewId": 10,
+    "positive": true
+  },
+  {
+    "id": 29,
+    "userId": 3,
+    "reviewId": 10,
+    "positive": true
+  },
+  {
+    "id": 30,
+    "userId": 4,
+    "reviewId": 10,
+    "positive": false
+  },
+  {
+    "id": 31,
+    "userId": 1,
+    "reviewId": 11,
+    "positive": false
+  },
+  {
+    "id": 32,
+    "userId": 2,
+    "reviewId": 11,
+    "positive": true
+  },
+  {
+    "id": 33,
+    "userId": 4,
+    "reviewId": 11,
+    "positive": true
+  },
+  {
+    "id": 34,
+    "userId": 1,
+    "reviewId": 12,
+    "positive": false
+  },
+  {
+    "id": 35,
+    "userId": 2,
+    "reviewId": 12,
+    "positive": true
+  },
+  {
+    "id": 36,
+    "userId": 3,
+    "reviewId": 12,
+    "positive": true
+  },
+  {
+    "id": 37,
+    "userId": 2,
+    "reviewId": 13,
+    "positive": true
+  },
+  {
+    "id": 38,
+    "userId": 3,
+    "reviewId": 13,
+    "positive": false
+  },
+  {
+    "id": 39,
+    "userId": 4,
+    "reviewId": 13,
+    "positive": true
+  },
+  {
+    "id": 40,
+    "userId": 1,
+    "reviewId": 14,
+    "positive": false
+  },
+  {
+    "id": 41,
+    "userId": 3,
+    "reviewId": 14,
+    "positive": false
+  },
+  {
+    "id": 42,
+    "userId": 4,
+    "reviewId": 14,
+    "positive": false
+  },
+  {
+    "id": 43,
+    "userId": 1,
+    "reviewId": 15,
+    "positive": true
+  },
+  {
+    "id": 44,
+    "userId": 2,
+    "reviewId": 15,
+    "positive": false
+  },
+  {
+    "id": 45,
+    "userId": 4,
+    "reviewId": 15,
+    "positive": false
+  },
+  {
+    "id": 46,
+    "userId": 1,
+    "reviewId": 16,
+    "positive": false
+  },
+  {
+    "id": 47,
+    "userId": 2,
+    "reviewId": 16,
+    "positive": true
+  },
+  {
+    "id": 48,
+    "userId": 3,
+    "reviewId": 16,
+    "positive": false
+  },
+  {
+    "id": 49,
+    "userId": 2,
+    "reviewId": 17,
+    "positive": true
+  },
+  {
+    "id": 50,
+    "userId": 3,
+    "reviewId": 17,
+    "positive": false
+  },
+  {
+    "id": 51,
+    "userId": 4,
+    "reviewId": 17,
+    "positive": true
+  },
+  {
+    "id": 52,
+    "userId": 1,
+    "reviewId": 18,
+    "positive": false
+  },
+  {
+    "id": 53,
+    "userId": 3,
+    "reviewId": 18,
+    "positive": true
+  },
+  {
+    "id": 54,
+    "userId": 4,
+    "reviewId": 18,
+    "positive": true
+  },
+  {
+    "id": 55,
+    "userId": 1,
+    "reviewId": 19,
+    "positive": true
+  },
+  {
+    "id": 56,
+    "userId": 2,
+    "reviewId": 19,
+    "positive": false
+  },
+  {
+    "id": 57,
+    "userId": 4,
+    "reviewId": 19,
+    "positive": false
+  },
+  {
+    "id": 58,
+    "userId": 1,
+    "reviewId": 20,
+    "positive": false
+  },
+  {
+    "id": 59,
+    "userId": 2,
+    "reviewId": 20,
+    "positive": false
+  },
+  {
+    "id": 60,
+    "userId": 3,
+    "reviewId": 20,
+    "positive": true
+  }
+]

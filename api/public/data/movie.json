@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "genreId": 2,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "synopsis": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
+    "durationMinutes": 140,
+    "releaseDate": "2023-06-01",
+    "posterUrl": "1",
+    "trailerUrl": "2"
+  },
+  {
+    "id": 2,
+    "genreId": 3,
+    "title": "Barbie",
+    "synopsis": "To live in Barbie Land is to be a perfect being in a perfect place. Unless you have a full-on existential crisis. Or you're a Ken.",
+    "durationMinutes": 114,
+    "releaseDate": "2023-07-20",
+    "posterUrl": "3",
+    "trailerUrl": "4"
+  },
+  {
+    "id": 3,
+    "genreId": 1,
+    "title": "Everything Everywhere All at Once",
+    "synopsis": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+    "durationMinutes": 139,
+    "releaseDate": "2022-06-23",
+    "posterUrl": "5",
+    "trailerUrl": "6"
+  },
+  {
+    "id": 4,
+    "genreId": 2,
+    "title": "Birds of Prey",
+    "synopsis": "After splitting with the Joker, Harley Quinn joins superheroines Black Canary, Huntress, and Renee Montoya to save a young girl from an evil crime lord.",
+    "durationMinutes": 109,
+    "releaseDate": "2020-02-06",
+    "posterUrl": "7",
+    "trailerUrl": "8"
+  },
+  {
+    "id": 5,
+    "genreId": 4,
+    "title": "La La Land",
+    "synopsis": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+    "durationMinutes": 128,
+    "releaseDate": "2017-01-19",
+    "posterUrl": "9",
+    "trailerUrl": "10"
+  }
+]
