@@ -54,7 +54,7 @@ class MovieController extends Controller
         $userId = $parms->auth['user'];
         $User = User::where('email', $userId)->first();
 
-        $movieId = $parms->route('movieId') ?? $error[] = ['message'=> 'Invalid movie id'];
+        $movieId = $parms->route('movieId') ?? $error[] = ['message' => 'Invalid movie id'];
         $page = $parms->page ?? 1;
         $pagesize = $parms->pageSize ?? 10;
         $sortBy = $parms->sortBy ?? 'desc';
@@ -62,26 +62,27 @@ class MovieController extends Controller
         $offset = ($page - 1) * $pagesize;
 
 
-        $Review = Review::with(['user', 'reviewevaluation' => function($query) use ($User){
+        // $revire = Review::whereYear('createdAt', date('Y'))->get();
+        // return $revire;
+        $Review = Review::with(['user', 'reviewevaluation' => function ($query) use ($User) {
             $query->where('userId', $User->id);
-
         }])->where('movieId', $movieId)->orderBy($sortBy, $sortDir)->get();
 
-        
+
         $a = [];
         $a[] = $Review->map(function ($Review) {
 
             $reviewEvaluitoion = $Review->reviewevaluation;
-            $myevalution = null;
 
-            $reviewEvaluitoion->isNotEmpty() && $myevalution = $reviewEvaluitoion->first()->positive; 
 
+            $myevalution  = $reviewEvaluitoion->isNotEmpty() ? $myevalution = $reviewEvaluitoion->first()->positive : NULL;
+            $CREATE = \Carbon\Carbon::parse($Review->createdAt)->format('d/m/Y H:i');
             return [
                 'id' => $Review->id,
                 'username' => $Review->user->username,
                 'content' => $Review->content,
                 'stars' => $Review->stars,
-                'createAt' => $Review->createdAt,
+                'createAt' => $CREATE,
                 'myEvaluation' => $myevalution
             ];
         });
@@ -364,7 +365,5 @@ class MovieController extends Controller
             ReviewEvaluation::create($content);
             return res(['message' => 'Review evaluation has been successfully created'], 200);
         }
-
     }
-    
 }
