@@ -37,7 +37,7 @@ class JwtCreation extends Controller
         $token = "Bearer " . $header . "." . $pyload . "." . $sing;
 
         $user = User::where('email', $parms)->first();
-        $accessToken = AccessToken::create([
+        AccessToken::create([
             'userId' => $user->id,
             'tokenString' =>  $header . "." . $pyload . "." . $sing,
   
