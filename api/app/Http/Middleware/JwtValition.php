@@ -14,54 +14,53 @@ class JwtValition
      * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
      * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
      */
-        private $key;
+    private $key;
     public function __construct()
     {
         $this->key = env('JWT');
-        
     }
     public function handle(Request $request, Closure $next)
     {
         $EXITS = $this->GetToken($request);
-        // return res($EXITS, 203);
-        if(!$EXITS){
-            return res(['message' => 'Unauthenticated user' ], 401);
+
+        if (!$EXITS) {
+            return res(['message' => 'Unauthenticated user'], 401);
         }
         $valid = $this->Valid($EXITS);
-        if(!$valid){
+        if (!$valid) {
             return res(['message' => 'Invalid token'], 403);
-
         }
         $request->merge(['auth' => (array) $valid]);
         return $next($request);
     }
-    public function GetToken($request){
+    public function GetToken($request)
+    {
         $data = $request->header('Authorization');
 
-        if(!$data){
+        if (!$data) {
             return false;
         }
 
         $token = explode(' ', $data);
         return $token[1];
-    
     }
-    public function Valid($token){
-         $valid = explode('.', $token);
+    public function Valid($token)
+    {
+        $valid = explode('.', $token);
 
-         if(count($valid) !== 3){
+        if (count($valid) !== 3) {
             return false;
-         }
-         list($header, $payload, $sing ) = explode('.', $token);
-         $validSing = base64_encode(hash_hmac('sha256', $header . ".". $payload, $this->key, true));
-         $DecPayload  = json_decode(base64_decode($payload));
+        }
+        list($header, $payload, $sing) = explode('.', $token);
+        $validSing = base64_encode(hash_hmac('sha256', $header . "." . $payload, $this->key, true));
+        $DecPayload  = json_decode(base64_decode($payload));
 
-         if($validSing !== $sing){
+        if ($validSing !== $sing) {
             return false;
-         }
-         if($DecPayload->exp < time()){
+        }
+        if ($DecPayload->exp < time()) {
             return false;
-         }
-         return $DecPayload;
+        }
+        return $DecPayload;
     }
 }

@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\AccessToken;
 use App\Models\User;
-use Illuminate\Http\Request;
 
 class JwtCreation extends Controller
 {
@@ -33,14 +32,14 @@ class JwtCreation extends Controller
 
 
         $sing = base64_encode(hash_hmac('sha256', $header . "." . $pyload, $this->key, true));
-    
+
         $token = "Bearer " . $header . "." . $pyload . "." . $sing;
 
         $user = User::where('email', $parms)->first();
         AccessToken::create([
             'userId' => $user->id,
             'tokenString' =>  $header . "." . $pyload . "." . $sing,
-  
+
         ]);
         return $token;
     }
